@@ -1,0 +1,13 @@
+.images{
+    height: 700px;
+    width: auto;
+}
+
+.button{
+    position: absolute;
+    left:50%;
+}
+
+.labels{
+    font-size: 30px;
+}
