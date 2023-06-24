@@ -1,2 +1,2 @@
 # pjsk
-project sekai related
+project sekai related idle game
