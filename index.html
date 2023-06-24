@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>PJSK Ship viewer</title>
+        <title>Idle Sekai</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1>PJSK Ship viewer</h1>
-        <h3 id="count">Count:</h3>
-        <label for="image1" class="labels" id="image1label"></label>
-        <img id="image1" class="images">
-        <label for="image2" class="labels" id="image2label"></label>
-        <img id="image2" class="images">
-        <div>
-            <button onclick="next()" class="button">Next Pair</button>
+        <div class="left"> 
+            <a>Crystal Count: <span id="Counter">0</span></a>
+            <br>
+            <a>Per second: <span id="CPS">0</span></a>
+            <br>
+            <img src="assets/images/crystal.png" onclick="clicked()" id="crystalButton">
+            
+        </div>
+       
+        <div class="right">
+            <button onclick="buy_NeneRobo()">Buy NeneRobo</button>
+            <a>
+                NeneRobos: <span id="RoboCount">0</span><br>
+                Cost: <span id="RoboCost">10</span>
+            </a>
         </div>
     </body>
 
